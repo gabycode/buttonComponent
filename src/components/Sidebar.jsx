@@ -1,8 +1,14 @@
+import { useState } from "react";
 import "../App.css";
 
 export default function Sidebar() {
+  const [visible, setVisible] = useState(false);
+
+  const toggleSidebar = () => {
+    setVisible(!visible);
+  };
   return (
-    <div className="sidebar-container">
+    <div className={`sidebar${visible ? " visible" : ""}`}>
       <h1 className="title">
         <span className="red-dev">Dev</span>challenges.io
       </h1>
