@@ -8,15 +8,19 @@ export default function Sidebar() {
     setVisible(!visible);
   };
   return (
-    <div className={`sidebar${visible ? " visible" : ""}`}>
+    <div className="sidebar">
       <h1 className="title">
-        <span className="red-dev">Dev</span>challenges.io
+        <span className="red-dev">Dev</span>
+        challenges.io
       </h1>
-      <div className="sidebar-items">
+      <span class="material-icons" onClick={toggleSidebar}>
+        menu
+      </span>
+      <div className={`sidebar-items ${visible ? "expanded" : ""}`}>
         <p className="sidebar-item">Colors</p>
         <p className="sidebar-item">Typography</p>
         <p className="sidebar-item">Spaces</p>
-        <p className="selected">Buttons</p>
+        <p className="sidebar-item selected">Buttons</p>
         <p className="sidebar-item">Inputs</p>
         <p className="sidebar-item">Grid</p>
       </div>
