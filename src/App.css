@@ -1,7 +1,36 @@
+.material-icons {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px; /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  transform: translateY(-50%);
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: "liga";
+}
+
 .title {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 1rem;
-  margin: 0;
+  margin-left: 2em;
 }
 
 .red-dev {
@@ -9,15 +38,30 @@
 }
 
 .sidebar {
-  width: 15em;
-  height: 100vh;
-  background-color: lightblue;
-  transition: transform 0.3s ease-out;
-  padding: 2.5em 0 0;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0.5rem 0rem;
+  background-color: #e0e7f6;
+  color: black;
 }
 
 .sidebar-items {
-  margin-top: 10em;
+  display: none;
+  background-color: #fafbfd;
+  margin-left: auto;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+}
+
+.sidebar-items.expanded {
+  display: block;
 }
 
 .sidebar-item {
@@ -25,7 +69,8 @@
   font-weight: 500;
   cursor: pointer;
   transition: 0.2s;
-  margin: 2em 0;
+  padding: 1.5em 0;
+  border-bottom: 1px solid rgb(235, 235, 235);
 }
 
 .sidebar-item:hover {
@@ -38,5 +83,31 @@
   cursor: pointer;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
+  .material-icons {
+    display: none;
+  }
+
+  .sidebar {
+    width: 15em;
+    height: 100vh;
+    background-color: #e0e7f6;
+    transition: transform 0.3s ease-out;
+    padding: 2.5em 0 0 2em;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .title {
+    margin: 0;
+    margin-bottom: 4em;
+  }
+
+  .sidebar-items {
+    margin-left: 0;
+    display: block;
+    background-color: #e0e7f6;
+    text-align: left;
+    position: relative;
+  }
 }
