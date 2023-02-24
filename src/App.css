@@ -85,6 +85,17 @@
   cursor: pointer;
 }
 
+/* Button Component */
+
+.button-subtitle {
+  font-family: "Ubuntu Mono", sans-serif;
+  color: #828282;
+}
+
+.button-subtitle .main-- {
+  color: #333;
+}
+
 @media (min-width: 768px) {
   .App {
     display: flex;
@@ -131,5 +142,9 @@
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     color: #4f4f4f;
+  }
+
+  .button-row {
+    display: flex;
   }
 }
