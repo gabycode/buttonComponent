@@ -31,7 +31,7 @@ export default function Buttons() {
 
       <div className="button-row">
         <div className="btns-container">
-          <pre className="button-subtitle main--">
+          <pre className="button-subtitle text">
             &lt;Button variant="text" /&gt;
           </pre>
           <button>Default</button>
