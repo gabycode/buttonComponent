@@ -147,4 +147,17 @@
   .button-row {
     display: flex;
   }
+
+  button {
+    padding: 0.8em 1em;
+    border-radius: 6px;
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 16px;
+    border: none;
+  }
+
+  .btns-container {
+    width: 30em;
+    background-color: pink;
+  }
 }
