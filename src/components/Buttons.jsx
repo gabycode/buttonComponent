@@ -7,7 +7,7 @@ export default function Buttons() {
 
       <div className="button-row">
         <div className="btns-container">
-          <pre className="button-subtitle normal">&lt;Button /&gt;</pre>
+          <pre className="button-title normal">&lt;Button /&gt;</pre>
           <button>Default</button>
         </div>
         <div className="btns-container">
@@ -18,7 +18,7 @@ export default function Buttons() {
 
       <div className="button-row">
         <div className="btns-container">
-          <pre className="button-subtitle outline">
+          <pre className="button-title outline">
             &lt;Button variant="outline" /&gt;
           </pre>
           <button>Default</button>
@@ -31,7 +31,7 @@ export default function Buttons() {
 
       <div className="button-row">
         <div className="btns-container">
-          <pre className="button-subtitle text">
+          <pre className="button-title text">
             &lt;Button variant="text" /&gt;
           </pre>
           <button>Default</button>
