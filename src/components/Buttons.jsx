@@ -4,6 +4,7 @@ import "../App.css";
 export default function Buttons() {
   const [disable, setDisable] = useState(false);
   const [textDisable, setTextDisable] = useState(false);
+  const [iconOnEnd, setIconOnEnd] = useState(false);
 
   return (
     <div className="main">
@@ -64,6 +65,29 @@ export default function Buttons() {
             onClick={() => setTextDisable(!textDisable)}
             className={textDisable ? " disable" : "text-not-disable"}>
             {textDisable ? "Disabled" : "Default"}
+          </button>
+        </div>
+      </div>
+
+      <div className="button-row">
+        <div className="btn-container">
+          <pre className="button-title">
+            &lt;Button {iconOnEnd ? "startIcon=" : "endIcon="}"fa-solid
+            fa-cart-shopping" /&gt;
+          </pre>
+          <button
+            onClick={() => setIconOnEnd(!iconOnEnd)}
+            className="button-with-icon">
+            {iconOnEnd ? (
+              <>
+                <i class="fa-solid fa-cart-shopping"></i>Default
+              </>
+            ) : (
+              <>
+                Default
+                <i class="fa-solid fa-cart-shopping"></i>
+              </>
+            )}
           </button>
         </div>
       </div>
