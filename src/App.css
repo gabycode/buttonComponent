@@ -192,6 +192,11 @@ button.not-disable {
   color: #3f3f3f;
 }
 
+button.text-not-disable {
+  background-color: transparent;
+  color: #3d5afe;
+}
+
 @media (min-width: 768px) {
   .App {
     display: flex;
