@@ -193,8 +193,19 @@ button.not-disable {
 }
 
 button.text-not-disable {
-  background-color: transparent;
+  background-color: #2962ff1a;
   color: #3d5afe;
+}
+
+/* BUTTON WITH ICON */
+
+button.button-with-icon {
+  background-color: #2962ff;
+  color: #fff;
+}
+
+button i {
+  margin: 0 0.5em;
 }
 
 @media (min-width: 768px) {
