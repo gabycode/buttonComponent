@@ -3,6 +3,7 @@ import "../App.css";
 
 export default function Buttons() {
   const [disable, setDisable] = useState(false);
+  const [textDisable, setTextDisable] = useState(false);
 
   return (
     <div className="main">
@@ -11,10 +12,6 @@ export default function Buttons() {
       <div className="button-row">
         <div className="btns-container">
           <pre className="button-title normal">&lt;Button /&gt;</pre>
-          <button className="normal">Default</button>
-        </div>
-        <div className="btns-container">
-          <pre className="button-subtitle">&:hover, &:focus</pre>
           <button className="normal">Default</button>
         </div>
       </div>
@@ -26,10 +23,6 @@ export default function Buttons() {
           </pre>
           <button className="outline">Default</button>
         </div>
-        <div className="btns-container">
-          <pre className="button-subtitle">&:hover, &:focus</pre>
-          <button className="outline">Default</button>
-        </div>
       </div>
 
       <div className="button-row">
@@ -37,10 +30,6 @@ export default function Buttons() {
           <pre className="button-title text">
             &lt;Button variant="text" /&gt;
           </pre>
-          <button className="text">Default</button>
-        </div>
-        <div className="btns-container">
-          <pre className="button-subtitle">&:hover, &:focus</pre>
           <button className="text">Default</button>
         </div>
       </div>
@@ -58,13 +47,23 @@ export default function Buttons() {
 
       <div className="button-row">
         <div className="btns-container">
-          <pre className="button-title disabled">
-            &lt;Button {disable ? "disabled" : ""} /&gt;
+          <pre className="button-title text-disabled">
+            &lt;Button{disable ? " disabled" : ""} /&gt;
           </pre>
           <button
             onClick={() => setDisable(!disable)}
             className={disable ? "disable" : "not-disable"}>
             {disable ? "Disabled" : "Default"}
+          </button>
+        </div>
+        <div className="btns-container">
+          <pre className="button-title disabled">
+            &lt;Button variant="text"{textDisable ? " disabled" : ""} /&gt;
+          </pre>
+          <button
+            onClick={() => setTextDisable(!textDisable)}
+            className={textDisable ? " disable" : "text-not-disable"}>
+            {textDisable ? "Disabled" : "Default"}
           </button>
         </div>
       </div>
