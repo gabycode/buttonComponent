@@ -123,6 +123,11 @@ button {
   transition: 0.2s;
 }
 
+.btns-container {
+  width: 50vw;
+  margin-bottom: 2em;
+}
+
 /* BUTTON NORMAL */
 
 button.normal {
@@ -149,7 +154,7 @@ button.outline:focus {
   background-color: #2962ff1a;
 }
 
-/* BUTTON OUTLINE */
+/* BUTTON TEXT */
 
 button.text {
   background-color: transparent;
@@ -161,9 +166,30 @@ button.text:focus {
   background-color: #2962ff1a;
 }
 
-.btns-container {
-  width: 50vw;
-  margin-bottom: 2em;
+/* BUTTON DISABLESHADOW */
+
+button.disableShadow {
+  background-color: #3d5afe;
+  color: #fff;
+  box-shadow: 0px 5px 5px rgba(51, 51, 51, 0.2);
+  transition: 0.3s;
+}
+
+button.disableShadow:hover,
+button.disableShadow:focus {
+  box-shadow: none;
+}
+
+/* BUTTON DISABLE */
+
+button.disable {
+  background-color: #e0e0e0;
+  color: #9e9e9e;
+}
+
+button.not-disable {
+  background-color: #e0e0e0;
+  color: #3f3f3f;
 }
 
 @media (min-width: 768px) {
