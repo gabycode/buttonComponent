@@ -127,6 +127,10 @@ export default function Buttons() {
           <pre className="button-title">&lt;Button color="secondary" /&gt;</pre>
           <button className="btn-secondary">Default</button>
         </div>
+        <div className="btns-container">
+          <pre className="button-title">&lt;Button color="danger" /&gt;</pre>
+          <button className="btn-danger">Default</button>
+        </div>
       </div>
     </div>
   );
