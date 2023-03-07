@@ -5,6 +5,17 @@ export default function Buttons() {
   const [disable, setDisable] = useState(false);
   const [textDisable, setTextDisable] = useState(false);
   const [iconOnEnd, setIconOnEnd] = useState(false);
+  const [size, setSize] = useState("small");
+
+  const handleClick = () => {
+    if (size === "small") {
+      setSize("medium");
+    } else if (size === "medium") {
+      setSize("large");
+    } else {
+      setSize("small");
+    }
+  };
 
   return (
     <div className="main">
@@ -88,6 +99,17 @@ export default function Buttons() {
                 <i class="fa-solid fa-cart-shopping"></i>
               </>
             )}
+          </button>
+        </div>
+      </div>
+
+      <div className="button-row">
+        <div className="btn-container">
+          <pre className="button-title">
+            &lt;Button size="{`${size}`}" /&gt;
+          </pre>
+          <button className={`button-${size}`} onClick={handleClick}>
+            Default
           </button>
         </div>
       </div>

@@ -208,6 +208,23 @@ button i {
   margin: 0 0.5em;
 }
 
+/* BUTTON SIZES */
+
+button.button-small {
+  font-size: 14px;
+  padding: 8px 16px;
+}
+
+button.button-medium {
+  font-size: 16px;
+  padding: 12px 24px;
+}
+
+button.button-large {
+  font-size: 20px;
+  padding: 16px 32px;
+}
+
 @media (min-width: 768px) {
   .App {
     display: flex;
