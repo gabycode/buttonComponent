@@ -81,7 +81,7 @@ export default function Buttons() {
       </div>
 
       <div className="button-row">
-        <div className="btn-container">
+        <div className="btns-container">
           <pre className="button-title">
             &lt;Button {iconOnEnd ? "startIcon=" : "endIcon="}"fa-solid
             fa-cart-shopping" /&gt;
@@ -104,11 +104,11 @@ export default function Buttons() {
       </div>
 
       <div className="button-row">
-        <div className="btn-container">
+        <div className="btns-container">
           <pre className="button-title">
             &lt;Button size="{`${size}`}" /&gt;
           </pre>
-          <button className={`button-${size}`} onClick={handleClick}>
+          <button className={`btn button-${size}`} onClick={handleClick}>
             Default
           </button>
         </div>
