@@ -210,6 +210,10 @@ button i {
 
 /* BUTTON SIZES */
 
+.btns-container .btn {
+  transition: 0.3s;
+}
+
 button.button-small {
   font-size: 14px;
   padding: 8px 16px;
@@ -223,6 +227,11 @@ button.button-medium {
 button.button-large {
   font-size: 20px;
   padding: 16px 32px;
+}
+
+.btns-container .btn:hover,
+.btns-container .btn:focus {
+  background-color: #e0e0e0;
 }
 
 @media (min-width: 768px) {
