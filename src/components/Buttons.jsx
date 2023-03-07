@@ -113,6 +113,21 @@ export default function Buttons() {
           </button>
         </div>
       </div>
+
+      <div className="button-row">
+        <div className="btns-container">
+          <pre className="button-title">&lt;Button color="default" /&gt;</pre>
+          <button className="btn-default">Default</button>
+        </div>
+        <div className="btns-container">
+          <pre className="button-title">&lt;Button color="primary" /&gt;</pre>
+          <button className="btn-primary">Default</button>
+        </div>
+        <div className="btns-container">
+          <pre className="button-title">&lt;Button color="secondary" /&gt;</pre>
+          <button className="btn-secondary">Default</button>
+        </div>
+      </div>
     </div>
   );
 }
