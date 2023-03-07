@@ -88,7 +88,7 @@ export default function Buttons() {
           </pre>
           <button
             onClick={() => setIconOnEnd(!iconOnEnd)}
-            className="button-with-icon">
+            className="btn-icons button-with-icon">
             {iconOnEnd ? (
               <>
                 <i class="fa-solid fa-cart-shopping"></i>Default
@@ -108,7 +108,7 @@ export default function Buttons() {
           <pre className="button-title">
             &lt;Button size="{`${size}`}" /&gt;
           </pre>
-          <button className={`btn button-${size}`} onClick={handleClick}>
+          <button className={`btn-sizes button-${size}`} onClick={handleClick}>
             Default
           </button>
         </div>
