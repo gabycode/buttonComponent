@@ -208,9 +208,15 @@ button i {
   margin: 0 0.5em;
 }
 
+.btns-container .btn-icons:hover,
+.btns-container .btn-icons:focus {
+  background-color: #0039cb;
+}
+
 /* BUTTON SIZES */
 
-.btns-container .btn {
+.btns-container .btn-sizes,
+.btns-container .btn-icons {
   transition: 0.3s;
 }
 
@@ -229,8 +235,8 @@ button.button-large {
   padding: 16px 32px;
 }
 
-.btns-container .btn:hover,
-.btns-container .btn:focus {
+.btns-container .btn-sizes:hover,
+.btns-container .btn-sizes:focus {
   background-color: #e0e0e0;
 }
 
