@@ -105,6 +105,7 @@
 
 .button-row {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .button-row .button-title {
@@ -265,6 +266,17 @@ button.btn-secondary {
 button.btn-secondary:hover,
 button.btn-secondary:focus {
   background-color: #1c313a;
+}
+
+button.btn-danger {
+  background-color: #d32f2f;
+  color: #fff;
+  box-shadow: 0px 2px 3px rgba(41, 98, 255, 0.2);
+}
+
+button.btn-danger:hover,
+button.btn-danger:focus {
+  background-color: #9a0007;
 }
 
 @media (min-width: 768px) {
