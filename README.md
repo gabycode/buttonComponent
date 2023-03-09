@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/gabycode/buttonComponent">
       Solution
     </a>
     <span> | </span>
@@ -39,12 +39,12 @@
 
 ![screenshot](public\button-component-ss.jpg)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
+Challenge: Create a reusable button with all the states in the design and a page displaying all the states.
 
 - Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
+  <a href="https://gabycode.github.io/buttonComponent/">
+  Demo
+  </a>
 
 ### Built With
 
