@@ -87,6 +87,5 @@ $ npm run dev
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- Website [portfolio](https://gabycode.github.io/Personal-Portfolio/)
+- GitHub [@gabycode](https://github.com/gabycode)
