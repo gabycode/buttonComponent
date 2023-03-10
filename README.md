@@ -37,7 +37,7 @@
 
 ## Overview
 
-![screenshot](public\button-component-ss.jpg)
+![screenshot](./public\button-component-ss.jpg)
 
 Challenge: Create a reusable button with all the states in the design and a page displaying all the states.
 
@@ -50,15 +50,15 @@ Challenge: Create a reusable button with all the states in the design and a page
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
+- [Vite](https://vitejs.dev/)
 - [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
+- [CSS](https://developer.mozilla.org/es/docs/Web/CSS)
 
 ## Features
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/ohgVTyJCbm5OZyTB2gNY) was to build an application to complete the given user stories.
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/ohgVTyJCbm5OZyTB2gNY) was to create a reusable button with all the states in the design and a page displaying all the states.
 
 ## How To Use
 
@@ -74,7 +74,7 @@ $ git clone https://github.com/your-user-name/your-project-name
 $ npm install
 
 # Run the app
-$ npm start
+$ npm run dev
 ```
 
 ## Acknowledgements
