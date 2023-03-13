@@ -37,7 +37,9 @@
 
 ## Overview
 
-![Button Component Screenshot](../button-component/public/button-component-ss.jpg)
+<p>
+    <img src="public\button-component-ss.jpg" width="220" height="240" />
+</p>
 
 Challenge: Create a reusable button with all the states in the design and a page displaying all the states.
 
