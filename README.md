@@ -37,7 +37,7 @@
 
 ## Overview
 
-![screenshot](./public\button-component-ss.jpg)
+![Alt text](public\button-component-ss.jpg?raw=true "Button Component Screenshot")
 
 Challenge: Create a reusable button with all the states in the design and a page displaying all the states.
 
