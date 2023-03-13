@@ -38,7 +38,7 @@
 ## Overview
 
 <p>
-    <img src="public\button-component-ss.jpg" width="220" height="240" />
+    <img src="public\button-component-ss.jpg" alt="Button component screenshot"/>
 </p>
 
 Challenge: Create a reusable button with all the states in the design and a page displaying all the states.
