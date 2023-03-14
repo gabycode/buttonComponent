@@ -13,7 +13,7 @@ export default function Sidebar() {
         <span className="red-dev">Dev</span>
         challenges.io
       </h1>
-      <span class="material-icons" onClick={toggleSidebar}>
+      <span className="material-icons" onClick={toggleSidebar}>
         menu
       </span>
       <div className={`sidebar-items ${visible ? "expanded" : ""}`}>
