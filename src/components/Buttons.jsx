@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "../App.css";
+import LastButtonRow from "./LastButtonRow";
 
 export default function Buttons() {
   const [disable, setDisable] = useState(false);
@@ -91,12 +92,12 @@ export default function Buttons() {
             className="btn-icons button-with-icon">
             {iconOnEnd ? (
               <>
-                <i class="fa-solid fa-cart-shopping"></i>Default
+                <i className="fa-solid fa-cart-shopping"></i>Default
               </>
             ) : (
               <>
                 Default
-                <i class="fa-solid fa-cart-shopping"></i>
+                <i className="fa-solid fa-cart-shopping"></i>
               </>
             )}
           </button>
@@ -115,22 +116,7 @@ export default function Buttons() {
       </div>
 
       <div className="button-row">
-        <div className="btns-container">
-          <pre className="button-title">&lt;Button color="default" /&gt;</pre>
-          <button className="btn-default">Default</button>
-        </div>
-        <div className="btns-container">
-          <pre className="button-title">&lt;Button color="primary" /&gt;</pre>
-          <button className="btn-primary">Default</button>
-        </div>
-        <div className="btns-container">
-          <pre className="button-title">&lt;Button color="secondary" /&gt;</pre>
-          <button className="btn-secondary">Default</button>
-        </div>
-        <div className="btns-container">
-          <pre className="button-title">&lt;Button color="danger" /&gt;</pre>
-          <button className="btn-danger">Default</button>
-        </div>
+        <LastButtonRow />
       </div>
     </div>
   );
